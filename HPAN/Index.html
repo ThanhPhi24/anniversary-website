@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Anniversary</title>
+    <!-- Liên kết file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Canvas để tạo hiệu ứng trái tim -->
+    <canvas id="canvas"></canvas>
+    
+    <!-- Thông điệp Happy Anniversary -->
+    <div id="message">Happy Anniversary</div>
+
+    <!-- Thông điệp hành trình 2 năm -->
+    <div id="journey-message">Hành trình 2 năm bên nhau của Lúa và Nấm</div>
+    
+    <!-- Trình chiếu hình ảnh -->
+    <div id="slideshow">
+        <img src="z6138640455433_ec00b305ad75837723a38b8bba96c948.jpg" alt="Image 1">
+        <img src="z6138640462241_6d327d9382a2303dc4988ad146b7b51b.jpg" alt="Image 2">
+        <img src="z6138640470979_8af4e5958dcaead97e06f772bedb2c50.jpg" alt="Image 3">
+        <img src="z6138640475519_6ecef404d4bea9d929c05bb940ee831d.jpg" alt="Image 4">
+        <img src="z6138640478123_8c64db4100a2246319eee4f6c0cb05c1.jpg" alt="Image 5">
+        <img src="z6138640482613_a16f965bd9a69142a65e8c74026f6cd6.jpg" alt="Image 6">
+        <img src="z6138640493102_90f677742b8a9ab51ba20fcd6c209f35.jpg" alt="Image 7">
+        <img src="z6138640499248_e02ed153b316306323c4918709048c22.jpg" alt="Image 8">
+        <img src="z6138640499369_34e9dca426191c290d0446f188411bed.jpg" alt="Image 9">
+        <img src="z6138640505722_508fc2def1349747ad3b9d3205dc7607.jpg" alt="Image 10">
+        <img src="z6138640516158_1ecacd023e139915c07904049bf2b818.jpg" alt="Image 11">
+        <img src="z6138640518350_5aaabebb59ad28e14db409a20660605e.jpg" alt="Image 12">
+        <img src="z6138640527659_17ce033dbaaa58cd35b65c29b6901811.jpg" alt="Image 13">
+        <img src="z6138640529894_20dbec45a4a80fc6eaca39aa32e7ab74.jpg" alt="Image 14">
+        <img src="z6138640516415_1581d6adf49756c09a01b57bfbe3ac45.jpg" alt="Image 15">
+        <img src="z6138640534550_a3cbf09bcb92dd09642ea1c5109b47b6.jpg" alt="Image 16">
+        <img src="z6138640536536_a7887610b763f1ce2ebcf22e54955e2e.jpg" alt="Image 17">
+        <img src="z6138640552054_cb687fae95244e49e40c5c4892909859.jpg" alt="Image 18">
+        <img src="z6138640553544_74b7c2b03dd65296739cf6bcaf17260d.jpg" alt="Image 19">
+        <img src="z6138640556763_d88b5ddc737e8c3e6f2d76e2d89fff85.jpg" alt="Image 20">
+        <img src="z6138640557716_04e8d01b8a2c0e36bef8b17904084aee.jpg" alt="Image 21">
+        <img src="z6138640566174_43c2f9cf76002ee9a6e3028cecc15ad2.jpg" alt="Image 22">
+        <img src="z6138640571050_289b422b9f92ce8ed856ff4c90fd752c.jpg" alt="Image 23">
+        <img src="z6138640577567_b70c7849aef7aa157277963b0925af26.jpg" alt="Image 24">
+        <img src="z6138640578353_1dfba5cd909398479fefde9695f44336.jpg" alt="Image 25">
+        <img src="z6138640592573_f5c1ffca6fd7e52e7936063036514d64.jpg" alt="Image 26">
+        <img src="z6138640597449_7a143d2dd1c4a85f1192f64e5fae6d63.jpg" alt="Image 27">
+        <img src="z6138640601783_8ae10db0cadd31ea1395852641c5663c.jpg" alt="Image 28">
+        <img src="z6138640601897_ce4a39218956922b8b0b4d6605cb39f7.jpg" alt="Image 29">
+        <img src="z6138640605472_22a6adc00b03abcac78f162b8a4875d6.jpg" alt="Image 30">
+        <img src="z6138640608839_4259437641b83988837e92a7c5cda38b.jpg" alt="Image 31">
+        <img src="z6138640613582_9a381307fa7121ba7e7dc2d82840482e.jpg" alt="Image 32">
+        <img src="z6138640625181_3085dedf00c28776b0e720c827249445.jpg" alt="Image 33">
+        <img src="z6138640627496_2c8af250076e50f379384a564b0a55bd.jpg" alt="Image 34">
+        <img src="z6138640634572_20f129d85aeb833904c1f0be28241a3b.jpg" alt="Image 35">
+        <img src="z6138640634675_91c701d323a3055b96646bc266ad6225.jpg" alt="Image 36">
+        <img src="z6138640643083_eccb3f752e0a3129b5c5097848aa243c.jpg" alt="Image 37">
+        <img src="z6138640644011_75dffd7812f7beb7a528d3c72138d2ec.jpg" alt="Image 38">
+        <img src="z6138640651036_79c2291cdb099ab328029842a9d59cf4.jpg" alt="Image 39">
+        <img src="z6138644963044_47907e0bca662b384dc6ed90e1389007.jpg" alt="Image 40">
+        <img src="z6138644968347_9233603e230497ee2d2f5f7ef8bb36dd.jpg" alt="Image 41">
+        <img src="z6138644968993_b614408568b7201c5e58e8198acd4105.jpg" alt="Image 42">
+        <img src="z6138644964111_8cbbe115921eda82ed53388d812947af.jpg" alt="Image 43">
+        <img src="z6138640640295_59aa5f7dc03961a764533251d43acb9d.jpg" alt="Image 44">
+        <img src="z6138640496440_cec51753f705a471702acaed6721a085.jpg" alt="Image 45">
+
+        <!-- Thêm tất cả ảnh của bạn vào đây -->
+    </div>
+
+    <!-- Thông điệp cuối cùng -->
+    <div id="final-message">Mãi bên nhau bạn nhé!</div>
+
+    <script>
+        // Hiệu ứng trái tim lớn bay lên
+        const canvas = document.getElementById("canvas");
+        const ctx = canvas.getContext("2d");
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        const hearts = [];
+
+        class Heart {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.size = Math.random() * 40 + 30;
+                this.vx = (Math.random() - 0.5) * 2;
+                this.vy = Math.random() * -3 - 1;
+                this.opacity = 1;
+                this.color = "rgba(255, 0, 127,";
+            }
+            draw() {
+                ctx.globalAlpha = this.opacity;
+                ctx.fillStyle = this.color + this.opacity + ")";
+                ctx.beginPath();
+                ctx.moveTo(this.x, this.y);
+                ctx.bezierCurveTo(
+                    this.x - this.size / 2, this.y - this.size / 2, 
+                    this.x - this.size, this.y + this.size / 2, 
+                    this.x, this.y + this.size
+                );
+                ctx.bezierCurveTo(
+                    this.x + this.size, this.y + this.size / 2, 
+                    this.x + this.size / 2, this.y - this.size / 2, 
+                    this.x, this.y
+                );
+                ctx.closePath();
+                ctx.fill();
+            }
+            update() {
+                this.x += this.vx;
+                this.y += this.vy;
+                this.opacity -= 0.01;
+            }
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            if (Math.random() < 0.1) {
+                hearts.push(new Heart(Math.random() * canvas.width, canvas.height));
+            }
+            for (let i = hearts.length - 1; i >= 0; i--) {
+                hearts[i].draw();
+                hearts[i].update();
+                if (hearts[i].opacity <= 0) hearts.splice(i, 1);
+            }
+            requestAnimationFrame(animate);
+        }
+        animate();
+
+        // Hiển thị thông điệp hành trình sau Happy Anniversary
+        setTimeout(() => {
+            document.getElementById("message").style.display = "none";
+            document.getElementById("journey-message").style.display = "block";
+            setTimeout(() => {
+                document.getElementById("journey-message").style.display = "none";
+                const slideshow = document.getElementById("slideshow");
+                slideshow.style.display = "block";
+                const images = slideshow.querySelectorAll("img");
+                let index = 0;
+                images[index].style.display = "block";
+                setInterval(() => {
+                    images[index].style.display = "none";
+                    index = (index + 1) % images.length;
+                    images[index].style.display = "block";
+                }, 2500);
+                // Hiển thị thông điệp cuối cùng
+                setTimeout(() => {
+                    document.getElementById("final-message").style.display = "block";
+                }, images.length * 2500);
+            }, 3000);
+        }, 5000);
+    </script>
+</body>
+</html>
